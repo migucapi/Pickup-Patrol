@@ -31,7 +31,7 @@
     {"name":"obj_rubbish_bottle","order":3,"path":"objects/obj_rubbish_bottle/obj_rubbish_bottle.yy",},
     {"name":"obj_rubbish_can","order":4,"path":"objects/obj_rubbish_can/obj_rubbish_can.yy",},
     {"name":"obj_rubbish_wrapper","order":12,"path":"objects/obj_rubbish_wrapper/obj_rubbish_wrapper.yy",},
-    {"name":"obj_score_popup","order":9,"path":"objects/obj_score_popup/obj_score_popup.yy",},
+    {"name":"obj_score_popup","order":19,"path":"objects/obj_score_popup/obj_score_popup.yy",},
     {"name":"obj_wildlife_bird","order":5,"path":"objects/obj_wildlife_bird/obj_wildlife_bird.yy",},
     {"name":"obj_wildlife_crab","order":6,"path":"objects/obj_wildlife_crab/obj_wildlife_crab.yy",},
     {"name":"obj_wildlife_fox","order":11,"path":"objects/obj_wildlife_fox/obj_wildlife_fox.yy",},

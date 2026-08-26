@@ -3,13 +3,15 @@
   "%Name":"obj_score_popup",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_score_popup",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pickup Patrol",
-    "path":"Pickup Patrol.yyp",
+    "name":"Level1",
+    "path":"folders/Level 1 - Beach/Level1.yy",
   },
   "parentObjectId":null,
   "persistent":false,
