@@ -53,6 +53,7 @@
     {"id":{"name":"obj_rubbish_bottle","path":"objects/obj_rubbish_bottle/obj_rubbish_bottle.yy",},},
     {"id":{"name":"obj_rubbish_can","path":"objects/obj_rubbish_can/obj_rubbish_can.yy",},},
     {"id":{"name":"obj_rubbish_wrapper","path":"objects/obj_rubbish_wrapper/obj_rubbish_wrapper.yy",},},
+    {"id":{"name":"obj_score_popup","path":"objects/obj_score_popup/obj_score_popup.yy",},},
     {"id":{"name":"obj_wildlife_bird","path":"objects/obj_wildlife_bird/obj_wildlife_bird.yy",},},
     {"id":{"name":"obj_wildlife_crab","path":"objects/obj_wildlife_crab/obj_wildlife_crab.yy",},},
     {"id":{"name":"obj_wildlife_fox","path":"objects/obj_wildlife_fox/obj_wildlife_fox.yy",},},
