@@ -1,5 +1,5 @@
 global.player_score = 0;
-global.target_score = 100;
+global.target_score = 150;
 time_left = 20; // seconds
 
 spawn_timer = 0;
