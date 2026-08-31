@@ -1,5 +1,12 @@
+//Pause menu
+if (keyboard_check_pressed(vk_escape)) {
+    global.game_paused = !global.game_paused;
+}
+if (global.game_paused) exit;
+
 time_left -= 1/room_speed;
 
+//Win Room/Gameover room
 if (global.player_score >= global.target_score) {
     room_goto(room_win);
 }
@@ -7,6 +14,9 @@ else if (time_left <= 0) {
     room_goto(room_gameover);
 }
 
+
+
+//Rubbish Spawner
 spawn_timer++;
 if (spawn_timer >= spawn_interval) {
     spawn_timer = 0;
@@ -24,3 +34,4 @@ if (spawn_timer >= spawn_interval) {
         }
     }
 }
+

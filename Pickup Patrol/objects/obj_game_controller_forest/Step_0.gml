@@ -1,3 +1,8 @@
+if (keyboard_check_pressed(vk_escape)) {
+    global.game_paused = !global.game_paused;
+}
+if (global.game_paused) exit;
+
 time_left -= 1/room_speed;
 
 if (global.player_score >= global.target_score) {
@@ -6,6 +11,8 @@ if (global.player_score >= global.target_score) {
 else if (time_left <= 0) {
     room_goto(room_gameover);
 }
+
+
 
 spawn_timer++;
 if (spawn_timer >= spawn_interval) {

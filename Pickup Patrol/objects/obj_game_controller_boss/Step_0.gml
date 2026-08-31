@@ -1,3 +1,8 @@
+if (keyboard_check_pressed(vk_escape)) {
+    global.game_paused = !global.game_paused;
+}
+if (global.game_paused) exit;
+
 time_left -= 1/room_speed;
 
 if (global.player_score >= global.target_score) {

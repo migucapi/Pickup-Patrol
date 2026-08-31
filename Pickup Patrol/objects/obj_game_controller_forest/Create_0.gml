@@ -1,3 +1,7 @@
+global.game_paused = false;
+
+global.flash_timer = 0;
+
 global.player_score = 0;
 global.target_score = 200;
 time_left = 35; // seconds

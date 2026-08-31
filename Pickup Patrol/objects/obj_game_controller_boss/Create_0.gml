@@ -1,3 +1,9 @@
+global.game_paused = false;
+
+global.player_lives = 3;
+
+global.flash_timer = 0;
+
 global.player_score = 0;
 global.target_score = 300;
 time_left = 40;
@@ -12,4 +18,11 @@ for (var i = 0; i < 3; i++) {
     var sx = irandom_range(20, room_width - 20);
     var sy = irandom_range(20, room_height - 20);
     instance_create_layer(sx, sy, "Instances", obj_rubbish_barrel);
+}
+
+// Spawn speed powerup
+if (!instance_exists(obj_powerup_speed) && irandom(400) == 0) {
+    var px = irandom_range(20, room_width - 20);
+    var py = irandom_range(20, room_height - 20);
+    instance_create_layer(px, py, "Instances", obj_powerup_speed);
 }

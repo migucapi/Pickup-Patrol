@@ -1,5 +1,13 @@
 if (!caught_player) {
     caught_player = true;
-    speed = 0;
-    room_goto(room_gameover);
+    global.player_lives -= 1;
+    global.flash_timer = 15;
+
+    if (global.player_lives <= 0) {
+        room_goto(room_gameover);
+    } else {
+        obj_player.x = 40;
+        obj_player.y = 40;
+        alarm[0] = 60;
+    }
 }

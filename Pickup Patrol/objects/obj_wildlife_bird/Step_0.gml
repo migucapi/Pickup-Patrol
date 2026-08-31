@@ -1,3 +1,5 @@
+if (global.game_paused) exit;
+
 change_timer--;
 if (change_timer <= 0) {
     direction = irandom(360);

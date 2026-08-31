@@ -1,3 +1,5 @@
+global.flash_timer = 0;
+
 global.player_score = 0;
 global.target_score = 150;
 time_left = 20; // seconds
@@ -15,3 +17,5 @@ for (var i = 0; i < 3; i++) {
     var obj_to_spawn = choose(obj_rubbish_bottle, obj_rubbish_can);
     instance_create_layer(sx, sy, "Instances", obj_to_spawn);
 }
+
+global.game_paused = false;
