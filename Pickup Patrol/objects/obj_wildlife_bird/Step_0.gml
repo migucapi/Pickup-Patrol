@@ -1,4 +1,8 @@
-if (global.game_paused) exit;
+if (global.game_paused) {
+    speed = 0;
+    exit;
+}
+speed = 1.5;
 
 change_timer--;
 if (change_timer <= 0) {
@@ -6,6 +10,9 @@ if (change_timer <= 0) {
     change_timer = irandom_range(30, 90);
 }
 
-// keep it inside the sand area, bounce off edges
+//Keep in room
 if (x < 10 || x > room_width - 10) direction = 180 - direction;
 if (y < 80 || y > room_height - 10) direction = -direction;
+
+x = clamp(x, 10, room_width - 10);
+y = clamp(y, 10, room_height - 10);

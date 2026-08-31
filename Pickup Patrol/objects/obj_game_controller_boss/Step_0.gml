@@ -12,6 +12,18 @@ else if (time_left <= 0) {
     room_goto(room_gameover);
 }
 
+//Spawn speed powerups
+if (!global.game_paused) {
+    powerup_timer--;
+    if (powerup_timer <= 0 && !instance_exists(obj_powerup_speed)) {
+        var px = irandom_range(20, room_width - 20);
+        var py = irandom_range(20, room_height - 20);
+        instance_create_layer(px, py, "Instances", obj_powerup_speed);
+        powerup_timer = 500;
+    }
+}
+
+//Spawn rubbish barrels
 spawn_timer++;
 if (spawn_timer >= spawn_interval) {
     spawn_timer = 0;

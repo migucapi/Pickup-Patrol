@@ -1,9 +1,16 @@
-if (global.game_paused) exit;
+if (global.game_paused) {
+    speed = 0;
+    exit;
+}
+speed = 2.2;
 
 change_timer--;
 if (change_timer <= 0) {
     direction = irandom(360);
-    change_timer = irandom_range(20, 60);
+    change_timer = irandom_range(30, 75);
 }
 if (x < 10 || x > room_width - 10) direction = 180 - direction;
-if (y < 10 || y > room_height - 10) direction = -direction;
+if (y < 80 || y > room_height - 10) direction = -direction;
+
+x = clamp(x, 10, room_width - 10);
+y = clamp(y, 10, room_height - 10);

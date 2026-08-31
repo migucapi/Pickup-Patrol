@@ -1,8 +1,11 @@
 global.game_paused = false;
 
+//Player Lives
 global.player_lives = 3;
-
 global.flash_timer = 0;
+
+//Speed Powerup
+powerup_timer = 500;
 
 global.player_score = 0;
 global.target_score = 300;
