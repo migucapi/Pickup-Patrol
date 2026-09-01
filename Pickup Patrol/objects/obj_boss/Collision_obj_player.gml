@@ -3,6 +3,8 @@ if (!caught_player) {
     global.player_lives -= 1;
     global.flash_timer = 15;
 
+
+//1 second
     if (global.player_lives <= 0) {
         room_goto(room_gameover);
     } else {

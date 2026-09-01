@@ -2,16 +2,20 @@ global.game_paused = false;
 
 //Player Lives
 global.player_lives = 3;
+
+//Heart Flash
 global.flash_timer = 0;
 
 //Speed Powerup
 powerup_timer = 500;
 
+
+//Win Condition
 global.player_score = 0;
-global.target_score = 300;
+global.target_score = 380;
 time_left = 40;
 spawn_timer = 0;
-spawn_interval = 100;
+spawn_interval = 60;
 max_rubbish = 5;
 
 global.current_level = room;

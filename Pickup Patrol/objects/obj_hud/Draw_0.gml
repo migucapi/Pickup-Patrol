@@ -15,6 +15,8 @@ if (room == room_boss) {
     }
 }
 
+
+//Heart Flash
 if (global.flash_timer > 0) {
     global.flash_timer--;
     draw_set_alpha((global.flash_timer / 15) * 0.4);
