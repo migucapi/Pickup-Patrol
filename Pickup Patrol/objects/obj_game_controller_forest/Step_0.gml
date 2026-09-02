@@ -13,7 +13,7 @@ else if (time_left <= 0) {
 }
 
 
-
+//Spawner
 spawn_timer++;
 if (spawn_timer >= spawn_interval) {
     spawn_timer = 0;
