@@ -1,3 +1,4 @@
+//User Input
 if (global.game_paused) {
     if (keyboard_check_pressed(ord("L"))) {
         global.game_paused = false;
