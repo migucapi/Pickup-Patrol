@@ -10,7 +10,7 @@ max_rubbish = 6; // don't let too many pile up at once
 
 global.current_level = room;
 
-// Iteration control structure — spawn starting rubbish in a loop
+// Spawn Loop
 for (var i = 0; i < 3; i++) {
     var sx = irandom_range(20, room_width - 20);
     var sy = irandom_range(20, room_height - 20);

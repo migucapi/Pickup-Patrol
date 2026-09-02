@@ -1,8 +1,11 @@
 if (global.game_paused) exit;
 
+
+//Movement
 var move_x = sign(keyboard_check(ord("D")) + keyboard_check(vk_right)) - sign(keyboard_check(ord("A")) + keyboard_check(vk_left));
 var move_y = sign(keyboard_check(ord("S")) + keyboard_check(vk_down)) - sign(keyboard_check(ord("W")) + keyboard_check(vk_up));
 
+//Powerup
 if (speed_boost_timer > 0) {
     speed_boost_timer--;
     move_spd = 7;
@@ -10,6 +13,7 @@ if (speed_boost_timer > 0) {
     move_spd = 4;
 }
 
+//Collision with obstacles (driftwood parent)
 if (!place_meeting(x + move_x * move_spd, y, obj_driftwood)) {
     x += move_x * move_spd;
 }
@@ -17,5 +21,6 @@ if (!place_meeting(x, y + move_y * move_spd, obj_driftwood)) {
     y += move_y * move_spd;
 }
 
+//Clamp Boundaries
 x = clamp(x, 0, room_width - sprite_width);
 y = clamp(y, 0, room_height - sprite_height);

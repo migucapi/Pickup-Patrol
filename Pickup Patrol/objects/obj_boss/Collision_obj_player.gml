@@ -4,7 +4,7 @@ if (!caught_player) {
     global.flash_timer = 15;
 
 
-//1 second
+//1 second before boss starts chasing again
     if (global.player_lives <= 0) {
         room_goto(room_gameover);
     } else {
