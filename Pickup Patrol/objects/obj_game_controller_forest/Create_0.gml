@@ -4,7 +4,7 @@ global.flash_timer = 0;
 
 global.player_score = 0;
 global.target_score = 200;
-time_left = 35; // seconds
+time_left = 40; // seconds
 
 spawn_timer = 0;
 spawn_interval = 75; // frames between new rubbish (about 1.5 sec at 60fps)
