@@ -1,4 +1,4 @@
-instance_destroy(other);
+ instance_destroy(other);
 global.player_score += 10;
 
 //Sound Effect

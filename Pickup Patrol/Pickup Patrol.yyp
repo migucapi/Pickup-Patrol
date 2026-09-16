@@ -11,7 +11,6 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Gameover Room","folderPath":"folders/Gameover Room.yy","name":"Gameover Room","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"SoundFX","folderPath":"folders/SoundFX.yy","name":"SoundFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level 1 - Beach","folderPath":"folders/Level 1 - Beach.yy","name":"Level 1 - Beach","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level1","folderPath":"folders/Level 1 - Beach/Level1.yy","name":"Level1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level 2 - Forest","folderPath":"folders/Level 2 - Forest.yy","name":"Level 2 - Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -21,6 +20,7 @@
     {"$GMFolder":"","%Name":"Controls Menu","folderPath":"folders/Menus/Controls Menu.yy","name":"Controls Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level Select","folderPath":"folders/Menus/Level Select.yy","name":"Level Select","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Main Menu","folderPath":"folders/Menus/Main Menu.yy","name":"Main Menu","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SoundFX","folderPath":"folders/SoundFX.yy","name":"SoundFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI Sprites","folderPath":"folders/UI Sprites.yy","name":"UI Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Win Room","folderPath":"folders/Win Room.yy","name":"Win Room","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],

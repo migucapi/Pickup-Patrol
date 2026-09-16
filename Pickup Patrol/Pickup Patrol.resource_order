@@ -1,7 +1,6 @@
 {
   "FolderOrderSettings":[
     {"name":"Gameover Room","order":6,"path":"folders/Gameover Room.yy",},
-    {"name":"SoundFX","order":9,"path":"folders/SoundFX.yy",},
     {"name":"Level 1 - Beach","order":3,"path":"folders/Level 1 - Beach.yy",},
     {"name":"Level 2 - Forest","order":4,"path":"folders/Level 2 - Forest.yy",},
     {"name":"Level2","order":4,"path":"folders/Level 2 - Forest/Level2.yy",},
@@ -9,6 +8,7 @@
     {"name":"Menus","order":2,"path":"folders/Menus.yy",},
     {"name":"Controls Menu","order":3,"path":"folders/Menus/Controls Menu.yy",},
     {"name":"Level Select","order":1,"path":"folders/Menus/Level Select.yy",},
+    {"name":"SoundFX","order":9,"path":"folders/SoundFX.yy",},
     {"name":"UI Sprites","order":5,"path":"folders/UI Sprites.yy",},
     {"name":"Win Room","order":7,"path":"folders/Win Room.yy",},
   ],
