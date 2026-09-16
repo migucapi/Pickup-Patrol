@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Level2",
-    "path":"folders/Level 2 - Forest/Level2.yy",
+    "name":"Level 3 - Boss",
+    "path":"folders/Level 3 - Boss.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

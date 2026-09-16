@@ -60,7 +60,7 @@
     {"name":"spr_deco_junkpile","order":2,"path":"sprites/spr_deco_junkpile/spr_deco_junkpile.yy",},
     {"name":"spr_deco_tree","order":4,"path":"sprites/spr_deco_tree/spr_deco_tree.yy",},
     {"name":"spr_deco_tyre_stack","order":4,"path":"sprites/spr_deco_tyre_stack/spr_deco_tyre_stack.yy",},
-    {"name":"spr_deco_tyrestack","order":14,"path":"sprites/spr_deco_tyrestack/spr_deco_tyrestack.yy",},
+    {"name":"spr_deco_tyrestack","order":15,"path":"sprites/spr_deco_tyrestack/spr_deco_tyrestack.yy",},
     {"name":"spr_deco_warning_sign","order":1,"path":"sprites/spr_deco_warning_sign/spr_deco_warning_sign.yy",},
     {"name":"spr_fox","order":7,"path":"sprites/spr_fox/spr_fox.yy",},
     {"name":"spr_gameover_title","order":1,"path":"sprites/spr_gameover_title/spr_gameover_title.yy",},

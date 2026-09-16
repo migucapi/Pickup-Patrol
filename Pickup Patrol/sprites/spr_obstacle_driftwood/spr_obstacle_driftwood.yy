@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_obstacle_driftwood",
-  "bboxMode":0,
-  "bbox_bottom":32,
+  "bboxMode":2,
+  "bbox_bottom":24,
   "bbox_left":3,
   "bbox_right":36,
   "bbox_top":14,

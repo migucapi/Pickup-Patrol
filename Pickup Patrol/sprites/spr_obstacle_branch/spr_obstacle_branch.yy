@@ -1,8 +1,8 @@
 {
   "$GMSprite":"v2",
   "%Name":"spr_obstacle_branch",
-  "bboxMode":0,
-  "bbox_bottom":18,
+  "bboxMode":2,
+  "bbox_bottom":13,
   "bbox_left":2,
   "bbox_right":38,
   "bbox_top":6,
