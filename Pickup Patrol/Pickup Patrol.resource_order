@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Gameover Room","order":6,"path":"folders/Gameover Room.yy",},
+    {"name":"SoundFX","order":9,"path":"folders/SoundFX.yy",},
     {"name":"Level 1 - Beach","order":3,"path":"folders/Level 1 - Beach.yy",},
     {"name":"Level 2 - Forest","order":4,"path":"folders/Level 2 - Forest.yy",},
     {"name":"Level2","order":4,"path":"folders/Level 2 - Forest/Level2.yy",},
@@ -44,6 +45,9 @@
     {"name":"room_level_select","order":1,"path":"rooms/room_level_select/room_level_select.yy",},
     {"name":"room_menu","order":8,"path":"rooms/room_menu/room_menu.yy",},
     {"name":"room_win","order":1,"path":"rooms/room_win/room_win.yy",},
+    {"name":"snd_boss_hit","order":1,"path":"sounds/snd_boss_hit/snd_boss_hit.yy",},
+    {"name":"snd_pickup","order":3,"path":"sounds/snd_pickup/snd_pickup.yy",},
+    {"name":"snd_powerup","order":2,"path":"sounds/snd_powerup/snd_powerup.yy",},
     {"name":"spr_bg_beach","order":8,"path":"sprites/spr_bg_beach/spr_bg_beach.yy",},
     {"name":"spr_bg_forest","order":1,"path":"sprites/spr_bg_forest/spr_bg_forest.yy",},
     {"name":"spr_bg_gameover","order":2,"path":"sprites/spr_bg_gameover/spr_bg_gameover.yy",},

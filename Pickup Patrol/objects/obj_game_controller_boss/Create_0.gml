@@ -13,7 +13,7 @@ powerup_timer = 500;
 //Win Condition
 global.player_score = 0;
 global.target_score = 380;
-time_left = 40;
+time_left = 30;
 spawn_timer = 0;
 spawn_interval = 60;
 max_rubbish = 5;

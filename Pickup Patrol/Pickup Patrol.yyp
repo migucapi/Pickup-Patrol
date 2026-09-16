@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Gameover Room","folderPath":"folders/Gameover Room.yy","name":"Gameover Room","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"SoundFX","folderPath":"folders/SoundFX.yy","name":"SoundFX","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level 1 - Beach","folderPath":"folders/Level 1 - Beach.yy","name":"Level 1 - Beach","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level1","folderPath":"folders/Level 1 - Beach/Level1.yy","name":"Level1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Level 2 - Forest","folderPath":"folders/Level 2 - Forest.yy","name":"Level 2 - Forest","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -71,6 +72,10 @@
     {"id":{"name":"room_level_select","path":"rooms/room_level_select/room_level_select.yy",},},
     {"id":{"name":"room_menu","path":"rooms/room_menu/room_menu.yy",},},
     {"id":{"name":"room_win","path":"rooms/room_win/room_win.yy",},},
+    {"id":{"name":"snd_boss_chase","path":"sounds/snd_boss_chase/snd_boss_chase.yy",},},
+    {"id":{"name":"snd_boss_hit","path":"sounds/snd_boss_hit/snd_boss_hit.yy",},},
+    {"id":{"name":"snd_pickup","path":"sounds/snd_pickup/snd_pickup.yy",},},
+    {"id":{"name":"snd_powerup","path":"sounds/snd_powerup/snd_powerup.yy",},},
     {"id":{"name":"spr_bg_beach","path":"sprites/spr_bg_beach/spr_bg_beach.yy",},},
     {"id":{"name":"spr_bg_boss","path":"sprites/spr_bg_boss/spr_bg_boss.yy",},},
     {"id":{"name":"spr_bg_forest","path":"sprites/spr_bg_forest/spr_bg_forest.yy",},},
